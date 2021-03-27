@@ -76,7 +76,9 @@ void setup() {
 }
 
 void loop() {
-  // Światełka
+  //  **************************************  //
+  //  This while is only for testing RGB led  //
+  //  **************************************  //
   while (0>1){
     for (int x = 0; x < 1024; x++){
       int val = x;
