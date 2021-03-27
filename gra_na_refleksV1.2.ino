@@ -104,7 +104,7 @@ void loop() {
       else if (val > 800  && val < 1023)  {analogWrite(9, val31);}
       if      (val == 0   || val == 1023) {analogWrite(7, 0);analogWrite(8, 0);analogWrite(9, 0);}
   
-      delay(10);
+      delay(5);
     }
   }
 
